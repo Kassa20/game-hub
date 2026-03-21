@@ -3,7 +3,7 @@ import React from "react";
 
 export const GameCardSkeleton = () => {
   return (
-    <Card.Root maxW="sm" borderRadius={10} overflow="hidden" width='300px'>
+    <Card.Root>
       <Skeleton height="200px" />
       <Card.Body>
         <SkeletonText />
@@ -11,3 +11,11 @@ export const GameCardSkeleton = () => {
     </Card.Root>
   );
 };
+
+
+/*
+
+Skeleton component to be rendered while page is loading. 
+has the same structure as the GameCard component. 
+
+*/
