@@ -12,3 +12,11 @@ export const CriticScore = ({ score }: Props) => {
     </Badge>
   );
 };
+
+/* 
+
+CriticScore component takes a score as a Prop from its 
+parent and displays it with a color-shade, according to 
+the score. 
+
+*/

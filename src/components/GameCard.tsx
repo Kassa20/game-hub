@@ -34,9 +34,9 @@ export const GameCard = ({ game }: Props) => {
 
 /*
 
-GameCard takes the games passed in by the GameGrid and 
+GameCard takes the games passed in by the GameGrid component and 
 builds a card component for each game. We need to build an
 interface since the GameCard component takes in a game of type
-Game as a parameter by its parent. Use chakraUI for CSS components
+Game as a parameter by its parent. Use chakraUI for CSS components.
 
 */
