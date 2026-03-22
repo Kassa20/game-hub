@@ -35,3 +35,10 @@ const useData = <T>(endpoint: string) => {
 }
 
 export default useData;
+
+/*
+
+Generic hook to be used by all services that require an api call. 
+returns necessary data back to its caller. 
+
+*/
