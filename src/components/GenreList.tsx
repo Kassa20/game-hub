@@ -31,7 +31,7 @@ export const GenreList = ({ onSelectedGenre, selectedGenre }: Props) => {
               borderRadius={8}
               src={genre.image_background}
             />
-            <Link fontWeight={genre.id === selectedGenre?.id ? 'bold' : 'normal'}  onClick={() => onSelectedGenre(genre)} variant="underline">
+            <Link fontWeight={genre.id === selectedGenre?.id ? 'bold' : 'normal'}  onClick={() => onSelectedGenre(genre)} variant="plain">
               {genre.name}
             </Link>
           </HStack>

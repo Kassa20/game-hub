@@ -2,10 +2,11 @@
 
 import { ChakraProvider, defaultSystem } from "@chakra-ui/react";
 import { ColorModeProvider } from "./color-mode";
+import system from "@/theme";
 
 export function Provider({ children }: { children: React.ReactNode }) {
   return (
-    <ChakraProvider value={defaultSystem}>
+    <ChakraProvider value={system}>
       <ColorModeProvider defaultTheme="dark">{children}</ColorModeProvider>
     </ChakraProvider>
   );
