@@ -24,7 +24,7 @@ export const GenreList = ({ onSelectedGenre, selectedGenre }: Props) => {
   return (
     <List.Root>
       {data.map((genre) => (
-        <List.Item key={genre.id} paddingY="5px" listStyle="none">
+        <List.Item key={genre.id} paddingY="7px" listStyle="none">
           <HStack>
             <Image
               boxSize="32px"
