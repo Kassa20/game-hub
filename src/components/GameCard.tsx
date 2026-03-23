@@ -1,4 +1,6 @@
 import { Game } from "@/hooks/useGames";
+import noImage from '../assets/no-image-placeholder-6f3882e0.webp' 
+
 import {
   Card,
   CardHeader,
@@ -18,7 +20,7 @@ interface Props {
 export const GameCard = ({ game }: Props) => {
   return (
     <Card.Root >
-      <Image src={game.background_image} />
+      <Image src={game.background_image || noImage} />
       <Card.Body>
         <CardHeader fontSize="2xl">{game.name}</CardHeader>
         <HStack justifyContent='space-between'>
